@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second assignment</title>
+
+  <style>
+    body {
+      background-color: white;
+      background-attachment: fixed;
+      background-size: auto;
+      
+    }
+    
+    .play1 {
+      width: 300px;
+      height: 200px;
+      background-color: darkgreen;
+    }
+
+    .play2 {
+      width: 300px;
+      height: 200px;
+      background-color: darkblue;
+    }
+
+    .play3 {
+      width: 300px;
+      height: 200px;
+      background-color: darkred;
+    }
+
+    .play4 {
+      display: flex;
+
+    }
+    
+
+    .play5 {
+      width: 320px;
+      height: auto;
+      background-color: darkorange;
+      color: white;
+    }
+    .play6 {
+      width: 320px;
+      height: auto;
+      background-color: darkcyan;
+      color: white;
+    }
+    .play7 {
+      width: 320px;
+      height: auto;
+      background-color: darkmagenta;
+      color: white;
+    }
+
+    .highlight {
+      background-color: yellow;
+      color: red;
+      padding: 0%;
+      width: 20%;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  .highlight:hover {
+    color: blue;
+    background-color: lightgreen;
+  }
+
+  .play8 {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+  }
+
+  .part9 {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+  }
+  .part10 {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.541);
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+  pre {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    margin: auto;
+  }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Francis Chibueze</h1>
+  <p>19/10/2025</p><br>
+  <h1 class="part10">SECOND ASSIGNMENT</h1><br>
+  <h1 class="part9">part 1.</h1>
+  <h2><strong class="play8">Question 1:</strong> block vs inline elements</h2>
+  <p><strong>Block Elements:</strong> this elements take up the full width available, with a new line before and after.</p>
+  <h3>Examples of Block Elements:</h3>
+  <ul>
+    <li>div</li>
+    <li>paragraph</li>
+  </ul>
+
+  <p><strong>Inline Elements:</strong> these elements only take up as much width as necessary, and do not start on a new line.</p>
+  <h3>Examples of Inline Elements:</h3>
+  <ul>
+    <li>span</li>
+    <li>strong</li>
+  </ul><br>
+  <h2><strong class="play8">Question 2:</strong> true or false an inline element can be a block element?</h2>
+  <p>False, an inline element cannot be a block element because they have different display behaviors in HTML.</p><br>
+  <h2><strong class="play8">Question 3:</strong> what happens when a div element is place in an html by default?</h2>
+  <p>By default, a div element is displayed as a block-level element, which means it starts on a new line and takes up the full width available.</p><br>
+  <h1 class="part9">part 2.</h1>
+  <h2><strong class="play8">Question 4:</strong> create an html element with three containing information about a different city each div should include.</h2>
+  <h4>answer</h4>
+  <div></div>
+
+  <div class="play7">
+    <h3>New York City</h3>
+    <p>New York City is known for its iconic landmarks such <br> as Times Square, Central Park, and the Statue of Liberty.</p>
+  </div>
+
+  <div class="play6">
+    <h3>Los Angeles</h3>
+    <p>Los Angeles is famous for its entertainment industry,<br> including Hollywood and its beautiful beaches.</p>
+  </div>
+
+  <div class="play5">
+    <h3>Chicago</h3>
+    <p>Chicago is known for its stunning architecture,<br> deep-dish pizza, and vibrant arts scene.</p>
+  </div><br>
+  <h2><strong class="play8">Question 5:</strong> what are the three most common attributes of a div element?</h2>
+  <h4>Answer:</h4>
+  <ol>
+    <li>id
+      <ul type="square">
+        <li>Used to uniquely identify an element within the HTML document.</li>
+      </ul>
+    </li>
+    <li>class
+      <ul type="square">
+        <li>Used to classify elements for styling and scripting purposes.</li>
+      </ul>
+    </li>
+    <li>style
+      <ul type="square">
+        <li>Used to apply inline CSS styles to an element.</li>
+      </ul>
+    </li>
+  </ol><br>
+  <h2><strong class="play8">Question 6:</strong> write the  css code used to center align a div element with 500px width</h2>
+  <h2>Answer:</h2>
+  <pre>
+    div {
+      width: 500px;
+      margin: auto;
+    }
+  </pre><br>
+  <h1 class="part9">part 3: <b> aligning divs side by side</b></h1>
+  <h2><strong  class="play8">Question 7:</strong> list four css methods that can be use to align divs side by side</h2>
+  <ul>
+    <li>Using float property</li>
+    <li>Using flexbox</li>
+    <li>Using grid layout</li>
+    <li>Using inline-block display</li>
+  </ul><br>
+  <h2><strong class="play8">Question 8:</strong>chose one of the method from Question 7 and write the complete html and css code to create three divs aligned side by side</h2>
+  <h2>Answer:</h2>
+  <div class="play4">
+    <div class="play1"><h1 style="color: white; text-align: center; padding-top: 60px; font-size: 60px;">chicago</h1></div>
+    <div class="play2"><h1 style="color: blanchedalmond; text-align: center; padding-top: 60px; font-size: 60px;">new york</h1></div>
+    <div class="play3"><h1 style="color: white; text-align: center; padding-top: 60px; font-size: 60px;">los angeles</h1></div>
+  </div><br>
+  <h1 class="part9">Part 4:<b>HTML CLASSES</b></h1>
+  <h2><strong class="play8">Question 9:</strong> what  is the purpose of class attributes in Html</h2>
+  <h2>Answer:</h2>
+  <p>The purpose of the class attribute in HTML is to assign one or more class names<br> to an element, allowing for easier targeting<br> and styling of multiple elements with the same class<br> using CSS and JavaScript.</p><br> 
+  <h2><strong class="play8">Question 10:</strong>can a multiple Html Elements share the same class name "highlight"</h2>
+  <h2>Answer:</h2>
+  <p>Yes, multiple HTML elements can share the same class name "highlight".<br> This allows for consistent styling and behavior across those elements.</p><br>
+  <h2><strong class="play8">Question 11:</strong>crete an Html page with</h2>
+  <ul>
+    <li>At least three Element that share the same class name"highlight"</li>
+    <li>A style section that style the "highlight" class with
+      <ul>
+        <li>background color</li>
+        <li>text color</li>
+        <li>padding</li>
+      </ul>
+
+    </li>
+  </ul>
+  <h2>Answer:</h2>
+  <h1 class="highlight"> Hello Word</h1>
+  <h2 class="highlight">Hello Word</h2>
+  <h3 class="highlight">Hello word</h3><br>
+  <h1 class="part9">Part 5:<b>Practical Application</b></h1>
+  <h2><strong class="play8">Question 12:</strong>create an Html page for a simple resturant with the folowing requirement</h2>
+  <h2>Answer:</h2>
+  <a href="resturant.html"> click this link to see this answer</a><br>
+  <h1 class="part9">Bonus Question</h1>
+  <h2><strong class="play8">Bonus1:</strong>Explain the difference between using float, flexbox, and grid for laying out elements.<br>when would you use each one</h2>
+  <h2>Answer:</h2>
+  <p><strong>Float:</strong> Float is an older layout technique that allows elements to be taken out of the normal document flow and positioned to the left or right.<br> It is best suited for simple layouts, such as wrapping text around images. However, it can lead to issues with clearing and overlapping content.</p>
+  <p><strong>flexbox:</strong> Designed for one-dimensional layouts, arranging items in a single row or column. Ideal for distributing space and aligning items within a container.<br>and it is responsive will also require a parent div</p> 
+  <p><strong>Grid:</strong> Designed for two-dimensional layouts, arranging items in both rows and columns simultaneously.<br> Ideal for complex page layouts and defining relationships between different areas of a design.<br>it also requires a parent div</p>
+  <h2><strong>Bonus 2:</strong> can an elements have multipe classes? if yes, how do you assign multiple class to a single element? Provide an example</h2>
+  <h2>Answer</h2>
+  <p>Yes, an HTML element can have multiple classes.
+To assign multiple classes to a single element, list the class names within the class attribute, separated by spaces. 
+</p>
+<strong>Example</strong>
+<pre>
+  div class="class1 class2 class3">
+    This div has multiple classes.
+</pre>
+
+<h1>End of the class</h1>
+
+  
+
+
+</body>
+</html>
