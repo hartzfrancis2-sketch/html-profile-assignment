@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>user Name</title>
+  <style>
+    body{
+      background-color: lightgray;
+    }
+    div {
+      font-size: 20px;
+      margin-left: 30px;
+    }
+    .play3 {
+      width: 40%;
+      height: 20px;
+      border-radius: 10px;
+    }
+    fieldset {
+      width: 50%;
+      border-color: blue;
+    }
+    .play2 {
+      background-color: black;
+      border: 2px saddlebrown;
+      color: white;
+      text-decoration-line: none;
+    }
+    .play2:hover {
+      background-color: blue;
+      color: black;
+      transition: 1s;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Addictional Details</legend>
+  <label for="user">Username</label><br>
+  <input class="play3" type="text" id="user" name="user" required><br><br>
+  <input class="play3" type="password" id="pass" name="pass" placeholder="password" required><br><br>
+  <input class="play3" type="password" id="confirm password" name="confirm password" placeholder="confirm password" required><br><br>
+  <label for="qus">Are you a</label>
+  <select id="qus" name="qus">
+    <option>Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+      </select><br><br>
+      <p>choose your subscriptions from the checkbox</p>
+      <input type="checkbox" id="news" name="naws">
+      <label for="news">Pay as you go</label><br><br>
+    <input type="checkbox" id="new" name="new">
+    <label for="new">daily subscriptions</label><br><br>
+    <p> interest (multipe checkbox)</p>
+    <input type="checkbox" id="ne" name="ne">
+    <label for="ne"> loan</label><br><br>
+    <input type="checkbox" id="ne" name="ne">
+    <label for="ne"> customer interest card</label><br><br>
+    <p>choose your prefered contact method from the list </p>
+    <input type="radio" id="rad" name="rad">
+    <label for="rad">through phone call</label><br><br>
+    <input type="radio" id="ra" name="ra">
+    <label for="ra">through Email</label><br><br>
+    <input type="radio" id="r" name="r">
+    <label for="r">Other means of communication</label><br><br>
+    <input type="submit">
+    <a class="play2" href="port1.html">Previous</a>
+
+    
+    
+
+  </fieldset>
+  </form>
+  </div>
+  
+</body>
+</html>

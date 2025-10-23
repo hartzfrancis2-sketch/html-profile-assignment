@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>prof form</title>
+  <style>
+    body{
+      background-color: lightgrey;
+    }
+    h1 {
+      font-size: 70px;
+      text-align: center;
+      text-shadow: 2px 2px 4px;
+      color: blue;
+    }
+    fieldset {
+      width: 50%;
+      border-color: blue;
+      
+    }
+    div {
+      font-size: 20px;
+      margin-left: 30px;
+    }
+    .play2 {
+      width: 40%;
+      height: 20px;
+      border-radius: 10px;
+    }
+    .play5 {
+      background-color: black;
+      color: white;
+      text-decoration-line: none;
+    }
+    .play5:hover{
+      background-color: blue;
+      color: black;
+      transition: 1s;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome!!!!</h1>
+  <h2>Sign up! and Get Started</h2><br>
+  <div>
+    <form>
+      <fieldset>
+        <legend>Sign Up! Here</legend>
+        <label for="fname">First Name:</label><br>
+        <input class="play2" type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input class="play2" type="text" id="lname" name="lname" required><br><br>
+        <label for="da"> Choose your Birthdate:</label><br>
+        <input class="play1" type="date" id="da" name="da"><br><br>
+        <input class="play2" type="email" id="mail" name="mail" placeholder="enter your Email" ><br><br>
+        <input type="submit">
+        <a class="play5" href="port2.html">Next</a>
+          </fieldset>
+    </form>
+  </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <Style>
+    .pla4 {
+      background-color: black;
+      color: white;
+      text-decoration-line: none;
+    }
+    .pla4:hover {
+      background-color: blue;
+      color: black;
+      transition: 1s;
+    }
+    fieldset{
+      width: 50%;
+    }
+    * {
+      font-size: 20px;
+    }
+    textarea {
+      text-decoration-line: underline;
+    }
+
+  </Style>
+</head>
+<body>
+  <h1>Assignment 4: HTML Forms & HTML5 Input Types</h1><br>
+  <h2>Name: Chibueze Francis</h2>
+  <h2>Date: 22/10/2025</h2>
+  <h2>Due Date: 26/10/2025</h2><br><br>
+  <h3>Starting Assignment</h3><br>
+
+  <h2>Part 1: Contact Form</h2>
+  <h3>Answers:</h3>
+
+  <div>
+<form action="/action_page.php">
+  <label for="fname">Full Name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Francis *******" required><br><br>
+  <label for="mail">Email:</label><br>
+  <input type="email" id="mail" name="mail" value="ikenna2@gmail.com" required><br><br>
+  <label for="number">Phone Number:</label><br>
+  <input type="tel" id="number" name="number" value="08034******" required><br><br>
+  <label for="subj">Subject:</label><br>
+  <input type="text" id="subj" name="subj" value="message"><br><br>
+  <textarea name="message" rows="10" cols="25">input your Message here:</textarea><br>
+  <input type="submit" value="submit">
+  <input type="reset" value="reset">
+    </form>
+  </div><br><br>
+  <h2>Part 2: Survey Form</h2>
+  <h3>Answers:</h3>
+
+
+  <div>
+    <form>
+      <label for="CName">Customer Name</label><br>
+      <input type="text" id="CName" name="CName" value="ikenna" required><br><br>
+      <label for="mail">Customer Email</label><br>
+      <input type="email" id="mail" name="mail" value="Enter Email" required><br><br>
+      <input type="date" id="date" name="date" value="22-10-2025"><br><br>
+      <label for="qunt">Number (from 1 to 10):</label><br>
+      <input type="number" id="qunt" name="qunt" min="1" max="10"><br><br>
+      <h3>Below is the item price in Range</h3>
+      <label for="price">Item price (from 0-100):</label>
+      <input type="range" id="price" name="price" min="0" max="100"><br><br>
+      <h3>select one from the Radio Botton</h3>
+      <input type="radio" id="but" name="but">
+      <label for="but"> Breakfast</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> Lunch</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> Dinner</label><br><br>
+      <h3>below is the checkbox</h3>
+      <input type="checkbox" id="chec" name="chec">
+      <label for="chec">Shawarma</label><br><br>
+      <input type="checkbox" id="chec" name="chec">
+      <label for="chec">meatpie</label><br><br>
+      <input type="checkbox" id="chec" name="chec">
+      <label for="chec">Pizza</label><br><br>
+      <label for="menu">how did you hear about the restaurants</label><br><br>
+      <h3>using thr dropdown</h3>
+      <select id="menu" name="menu">
+        <option value="1"> chose the answer from the dropdown below</option>
+        <option value="2">from friends</option>
+        <option value="3">from youtube ads</option>
+        <option value="4">from social media</option>
+        <option value="2">billboard advertisement</option>
+        </select><br><br>
+        <h3>Favcolor</h3>
+        <label for="favco">choose your best color</label>
+        <input type="color" id="favco" name="faveco" value="#00ff00"><br><br>
+        <textarea name="comments" rows="10" cols="30">add addictioal comment here:</textarea><br><br>
+        <input type="submit" value="submit"><br>
+    </form>
+  </div><br><br>
+
+  <h2>Part 3: Product Order Form</h2>
+
+  <div>
+    
+    <form>
+      <fieldset>
+        <legend>Customer Information:</legend>
+      <label for="fname">Full Name</label><br>
+      <input type="text" id="fname" name="fname" value="francis ifeanyi" required><br><br>
+      <input type="email" id="mail" name="mail" placeholder="Email" required><br><br>
+      <input type="tel" id="num" name="num" placeholder="08067590680">
+      </fieldset>
+    </form><br><br>
+
+    <form>
+      <fieldset>
+        <legend>Product Selection Section:</legend>
+        <select id="menu" name="menu">
+        <option value="1"> chose your desired product</option>
+        <option value="2"> caps</option>
+        <option value="3">trousers</option>
+        <option value="4">bags</option>
+        <option value="2">clothes</option>
+        <option value="5">shoes</option>
+      </select><br><br>
+      <p>quantity numbers</p>
+      <label for="qunt">Number (from 1 to 100):</label><br>
+      <input type="number" id="qunt" name="qunt" min="1" max="100"><br><br>
+      <p>pick your desired color</p>
+      <label for="favco">choose your best color</label>
+        <input type="color" id="favco" name="faveco" value="#000000"><br><br>
+        <p>size of product in radio button</p>
+        <input type="radio" id="but" name="but">
+      <label for="but"> small</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> medium</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> large</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but">Xlarge</label>
+      </fieldset><br><br>
+      <fieldset>
+        <legend>Delivery Sections</legend>
+        <label for="dat">Delivery Date:</label>
+        <input type="date" id="dat" name="dat" value="31-11-2025"><br><br>
+        <label for="tim">Delivery Time:</label>
+        <input type="time" id="tim" name="tim" value="12:30am">
+      </fieldset>
+    </form>
+  </div><br>
+  <div> <h3>pay out option</h3>
+    <form>
+      <input type="radio" id="but" name="but">
+      <label for="but"> Credit Card</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> PayPal</label><br><br>
+      <input type="radio" id="but" name="but">
+      <label for="but"> Cash on Delivery</label><br><br>
+      <textarea name="Notes" rows="10" cols="40">tell us your experience with the company:</textarea><br><br>
+      <h3>terms and Conditions applied</h3>
+      <p>Do you accept our privacy policy </p>
+      <input type="checkbox" id="con" name="con">
+      <label for="con">Yes</label><br>
+      <input type="checkbox" id="con" name="con">
+      <label for="con">No</label><br>
+      <input type="submit" value="Order">
+      </form>
+  </div>
+  <a class="pla4" href="port1.html">Next</a>
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>
