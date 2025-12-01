@@ -1,0 +1,240 @@
+/* this is my first assignment on css */
+/*.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}*/
+body{
+  background: linear-gradient(blue, red);
+}
+
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+#assignment1{
+  background-color: lightgrey;
+  height: 100%;
+}
+
+
+#main-title{
+  color: purple;
+  font-size: 36px;
+  font-weight: 700;
+  
+}
+.intro {
+  background-color: yellow;
+  display: inline;
+
+}
+p{
+  line-height: 1.6;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
+
+.mail {
+  color: orange;
+}
+
+input{
+  border: 2px solid black;
+  width: 30%;
+  height: 3rem;
+  border-radius: 15px;
+}
+
+input:focus{
+  border: 2px solid blue;
+  outline: none;
+}
+
+.normal{
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+button:hover{
+  background-color: #a049;
+}
+
+/* card section */
+#card{
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  background-color: wheat;
+}
+
+.img-container{
+position: relative;
+}
+.img-container img{
+  width: 100%;
+  cursor: pointer;
+}
+.img-container .badge{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 15px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-title{
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+  color: #333;
+  font-weight: bolder;
+}
+
+.product-price{
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.buy-button{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-button:hover{
+  background-color: #218838;
+}
+/* card section part 3 assignment */
+#card-box3{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+
+#card2{
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+#card2 .img-box img{
+  width: 100%;
+}
+
+#card2 .content-box .title{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#card2 .content-box .des{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#card2 .price{
+  font-size: 20px;
+  font-weight: bold;
+  color: #e91e63;
+  margin: 15px 0;
+}
+
+#card2 i{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+
+@media (max-width:799px) {
+  #card-box3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#card2 {
+    width: 320px;
+    padding: 10px;
+    margin: 10 auto;
+    
+}
+
+#card {
+    width: 320px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+input {
+  
+    width: 60%;
+  }
+  .normal {
+    width: 35%;
+    
+}
+}
+
+@media (max-width:477px) {
+  #assignment1 {
+    width: 100%;
+    height: 50%;
+}
+
+#card {
+    width: 320px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.buy-button {
+    
+    width: 50%;
+    
+}
+input {
+    
+    width: 60%;
+    
+}
+.normal {
+    width: 35%;
+}
+    
+
+}
+
+
+
+
